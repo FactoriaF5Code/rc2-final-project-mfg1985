@@ -14,7 +14,7 @@ Existe una gran demanda por recetas tradicionales y familiares.
     - Personas que buscan preservar las recetas de sus ancestros.
 
 
-##Funcionalidades:
+Funcionalidades:
 
 - Registro de recetas:
 
@@ -56,20 +56,20 @@ Existe una gran demanda por recetas tradicionales y familiares.
     - Temporizador y cronómetro para cocinar.
     - Planificador de comidas para organizar tus menús semanales.
 
--Diseño:
+- Diseño:
 
     - Interfaz intuitiva y fácil de usar.
     - Diseño atractivo y atemporal, con imágenes de alta calidad.
     - Opción de personalizar la interfaz con diferentes temas y colores.
 
--Modelo de negocio:
+- Modelo de negocio:
 
     - Aplicación gratuita con publicidad.
     - Suscripción premium para eliminar la publicidad y acceder a funciones adicionales.
     - Venta de contenido exclusivo (recetas premium, ebooks, cursos de cocina).
 
 
--Promoción:
+- Promoción:
 
     - Marketing en redes sociales y plataformas online.
     - Colaboración con influencers y cocineros reconocidos.
