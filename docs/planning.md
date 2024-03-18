@@ -1,4 +1,6 @@
-#Los secretos de la abuela/guela
+
+
+[Los secretos de la abuela/guel]a(./docs/img/Logo.png)
 
 
 Esta aplicación puede ayudar a preservar las tradiciones culinarias, fomentar la cocina casera y conectar a las personas a través de la comida.
@@ -43,6 +45,12 @@ Funcionalidades:
     - Subir fotos de tus platos y compartirlas con la comunidad.
     - Conectar con otros usuarios que comparten tus gustos culinarios.
 
+- Libro de Recetas:
+
+    - Crea tu propio libro de recetas.
+    - Personaliza el libro desde la portata hasta el tipo de texto.
+    - Opcion de exportar el diferentes formatos.
+
 - Personalización:
 
     - Ajustar las unidades de medida de los ingredientes (gramos, tazas, etc.).
@@ -55,6 +63,7 @@ Funcionalidades:
     - Conversor de unidades de medida.
     - Temporizador y cronómetro para cocinar.
     - Planificador de comidas para organizar tus menús semanales.
+    - Lista de la compra de ingredientes necesarios.
 
 - Diseño:
 
@@ -79,3 +88,8 @@ Funcionalidades:
 
 
 
+
+
+## User Story Mapping y User Story Journey
+
+[Enlace al Mural](https://miro.com/app/board/uXjVNh9V25g=/)
