@@ -92,6 +92,6 @@ Funcionalidades:
 
 ## User Story Mapping y User Story Journey
 
-[Enlace al Mural](https://miro.com/app/board/uXjVNh9V25g=/)
+[Enlace al MIRO](https://miro.com/app/board/uXjVNh9V25g=/)
 
 [Enlace al Figma] (https://www.figma.com/file/tZvfMCCzUnU73bt2WPEJHI/Los-secretos-de-la-abuela?type=design&node-id=0-1&mode=design&t=TaD7mTvaFzTGI2RK-0s)
