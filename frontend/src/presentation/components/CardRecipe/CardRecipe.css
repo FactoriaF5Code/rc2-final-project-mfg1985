@@ -1,0 +1,29 @@
+.card {
+width: 25rem;
+height: 25rem;
+background-color: var(--dark-green);
+border-radius: 30px;
+padding-top: 3rem;
+}
+.titulo {
+    background-color:white;
+    height: 3rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-size: 1.5rem;
+}
+.photo {
+    margin: auto;
+    margin-top: 3rem;
+    width: 20rem;
+    height: 12rem;
+    background-color: aqua;
+}
+
+
+    
+}
