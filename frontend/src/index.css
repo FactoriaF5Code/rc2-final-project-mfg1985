@@ -16,9 +16,12 @@
   --dark-green:#074F57;
   --green:#58A4B0;
   --turquoise:#074F57;
+  --light-turquoise:#9CF6F6;
 }
 body {
   background-color: var(--background-color);
   background-size: cover;
   height: 100vh;
+  margin: 0;
+  padding: 0;
 }

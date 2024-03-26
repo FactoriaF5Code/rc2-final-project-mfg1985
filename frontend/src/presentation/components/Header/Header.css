@@ -1,25 +1,19 @@
-
-
-img {
-    width: 15rem;
-    margin-left: 1.5rem;
-    margin-top: 1.5rem;
-
-    
-}
 header {
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     background-color: var(--light-pink);
     width: 25rem;
     height: 75rem;
-    border-radius: 25px;
-    margin-left: -5rem;
-
-    
-   
+    border-radius: 25px;            
 }
 
+.logo {
+    width: 15rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+    
 ul {
     justify-content: center;
 }
@@ -28,7 +22,4 @@ font-size: 3rem;
 color:var(--dark-pink);
 padding-top: 20rem;
 text-align: center;
-
-
-
 }

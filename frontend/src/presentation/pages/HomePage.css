@@ -1,2 +1,8 @@
-
+body {
+    display: flex;
+    flex-direction:row;
+    gap: 8rem;
+    /*justify-content: center;
+    align-items: center;*/
+}
 
