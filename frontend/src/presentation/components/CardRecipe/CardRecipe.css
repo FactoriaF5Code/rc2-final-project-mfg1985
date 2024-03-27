@@ -4,7 +4,7 @@ height: 20rem;
 background-color: var(--dark-green);
 border-radius: 30px;
 padding-top: 3rem;
-margin-top: 15rem;
+
 
 }
 .titulo {
@@ -25,7 +25,9 @@ h2 {
     height: 8rem;
     background-color: aqua;
 }
-
+.recipePhoto {
+    width: 15rem;
+    height: 8rem;
+}
 
     
-}
