@@ -1,19 +1,18 @@
 .cardLastSeen {
- width: 35rem;
- height: 20rem;
- background-color: var(--green);
- margin-top: 5rem;
- display: flex;
- gap:3rem;
- justify-content: center;
-    align-items: center;
-    border-radius: 15px;
+  width: 35rem;
+  height: 20rem;
+  background-color: var(--green);
+  margin-top: 10rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
 }
 
 .imgLastSeen {
-    width: 20rem;
-    background-color: white;
-    height: 15rem;
-    border-radius: 10px;
-    
+  width: 20rem;
+  background-color: white;
+  height: 15rem;
+  border-radius: 10px;
 }

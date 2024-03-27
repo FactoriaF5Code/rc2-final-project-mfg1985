@@ -1,16 +1,16 @@
 .card {
-width: 25rem;
-height: 25rem;
+width: 20rem;
+height: 20rem;
 background-color: var(--dark-green);
 border-radius: 30px;
 padding-top: 3rem;
-margin-top: 5rem;
+margin-top: 15rem;
 
 }
 .titulo {
     background-color:#9CF6F6 ;
     height: 3rem;
-    width: 25rem;
+    width: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,8 +21,8 @@ h2 {
 .photo {
     margin: auto;
     margin-top: 3rem;
-    width: 20rem;
-    height: 12rem;
+    width: 15rem;
+    height: 8rem;
     background-color: aqua;
 }
 

@@ -7,7 +7,7 @@ export const CardRecipe = () => {
         <h2>Titulo receta</h2>
       </div>
       <div className="photo">
-        <img src="" alt="" />
+        <img className="photoRecipe" src="" alt="" />
       </div>
     </div>
   );
