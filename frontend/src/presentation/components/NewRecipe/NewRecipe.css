@@ -1,22 +1,98 @@
 .newrecipe-conteiner {
-    background-color:#E3BAC6 ;
-    width:95rem;
-    height: 75rem;
-    border-radius: 2rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
-
+  background-color: #e3bac6;
+  width: 95rem;
+  height: 75rem;
+  border-radius: 2rem;
+  margin-left: rem;
+  margin-top: 2rem;
+ 
 }
 form {
-    margin: 2rem;
-    height: 5rem;
+  display: grid;
+  margin: 4rem;
+  grid-template-columns: repeat(4, 1fr) 1.5fr 0.5fr repeat(2, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-row-gap: 1rem;
 }
 label {
-    
-    display: grid;
-    
+  display: grid;
+  color: white;
+  font-size: 2.5rem;
 }
+input {
+  height: 5rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  font-size:auto;
+}
+.title-conteiner {
+  grid-area: 1 / 1 / 2 / 5;
+}
+.time-conteiner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  grid-area: 1 / 5 / 2 / 7;
+  margin-top: 2rem;
+}
+.servings-conteiner {
+  grid-area: 1 / 7 / 2 / 9;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.tags-conteiner {
+  grid-area: 2 / 1 / 3 / 4;
+}
+.dishtype-conteiner {
+  grid-area: 3 / 1 / 4 / 4;
+}
+.collection-conteiner {
+  grid-area: 4 / 1 / 5 / 4;
+}
+.category-conteiner {
+  grid-area: 5 / 1 / 6 / 4;
+}
+.ingredients-conteiner {
+  grid-area: 2 / 4 / 6 / 6;
+}
+.instructions-conteiner {
+  grid-area: 2 / 6 / 6 / 9;
+}
+.images-conteiner {
+  grid-area: 6/ 1 / 8 / 5;
+}
+.notes-conteiner {
+  grid-area: 6 / 5 / 8 / 9;
+}
+.form-title {
+  width: 43rem;
+}
+.form-category,
+.form-collection,
+.form-tags,
+.form-dishtype {
+  width: 30rem;
+}
+.form-notes,
+.form-images {
+  width: 43rem;
+  height: 13rem;
+}
+.form-ingredients,
+.form-isntruccion {
+  width: 26rem;
+  height: 34rem;
+}
+.save-recipe {
+  width: 12rem;
+  height: 4rem;
+  color: white;
+  font-size: 2.5rem;
+  border-radius: 2rem;
+  grid-area: 8 / 8 / 9 / 9;
 
 
 
-
+}
