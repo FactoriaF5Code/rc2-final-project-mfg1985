@@ -1,0 +1,22 @@
+.newrecipe-conteiner {
+    background-color:#E3BAC6 ;
+    width:95rem;
+    height: 75rem;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+}
+form {
+    margin: 2rem;
+    height: 5rem;
+}
+label {
+    
+    display: grid;
+    
+}
+
+
+
+
