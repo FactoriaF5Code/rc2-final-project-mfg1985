@@ -1,3 +1,4 @@
+import { SavedModal } from "../SavedModal/SavedModal";
 import "./NewRecipe.css";
 import {useForm} from "react-hook-form";
 
@@ -64,7 +65,7 @@ const { register, handleSubmit  } = useForm ()
         <input className="form-notes" type="text"{...register("Notas")}/>
         </div>
         <button type="submit" className="save-recipe">Guardar</button>
-
+        <SavedModal />
       </form>
     
     </section>
