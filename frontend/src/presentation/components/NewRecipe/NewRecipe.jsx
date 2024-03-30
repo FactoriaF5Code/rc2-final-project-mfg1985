@@ -1,14 +1,22 @@
+import { useState } from "react";
 import { SavedModal } from "../SavedModal/SavedModal";
 import "./NewRecipe.css";
-import {useForm} from "react-hook-form";
+import { useForm } from "react-hook-form";
 
 export const NewRecipe = () => {
-const { register, handleSubmit  } = useForm ()
+  const { register, handleSubmit } = useForm();
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const handleCloseModal = () => setIsModalOpen(false);
+
+  const onSubmit = (data) => {
+    console.log(data);
+    setIsModalOpen(true);
+  };
 
   return (
     <section className="newrecipe-conteiner">
-      <form onSubmit={handleSubmit((data) => {console.log (data)})}>
+      <form onSubmit={handleSubmit(onSubmit)}>
         <div className="title-conteiner">
           {/* titulo */}
           <label htmlFor="titulo">Titulo</label>
@@ -65,9 +73,8 @@ const { register, handleSubmit  } = useForm ()
         <input className="form-notes" type="text"{...register("Notas")}/>
         </div>
         <button type="submit" className="save-recipe">Guardar</button>
-        <SavedModal />
       </form>
-    
+      {isModalOpen && <SavedModal isOpen={isModalOpen} onClose={handleCloseModal} />}
     </section>
   );
 };

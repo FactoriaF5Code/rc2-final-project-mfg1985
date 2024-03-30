@@ -23,16 +23,19 @@
   
 }
 .sms {
-font-size: 2.5rem;
+font-size: 4rem;
+font-family: "Italianno", cursive;
+color:#E3BAC6;
 
 }
 .savedclose-modal {
-    width: 5rem;
-    height: 2rem;
+    width: 3rem;
+    height: 1rem;
     border-radius: 2rem;
     position: absolute; /* Position the button relative to its parent */
     top: 1rem; /* Adjust for spacing as needed */
     right: 1rem; /* Adjust for spacing as needed */
     width: 5rem;
     height: 2rem;
+    background-color: #E3BAC6;
 }
