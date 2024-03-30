@@ -1,65 +1,70 @@
 import "./NewRecipe.css";
+import {useForm} from "react-hook-form";
 
 export const NewRecipe = () => {
+const { register, handleSubmit  } = useForm ()
+
+
   return (
     <section className="newrecipe-conteiner">
-      <form>
+      <form onSubmit={handleSubmit((data) => {console.log (data)})}>
         <div className="title-conteiner">
           {/* titulo */}
           <label htmlFor="titulo">Titulo</label>
-          <input  className="form-title" type="text" />
+          <input  className="form-title" type="text" {...register("Titulo")} /> 
         </div>
         <div className="time-conteiner">
         {/* tiempo */}
         <label htmlFor="time">Tiempo</label>
-        <input className="form-time"  type="text" />
+        <input className="form-time"  type="text" {...register("Tiempo")}/>
         </div>
         <div className="servings-conteiner">
         {/* Raciones */}
         <label htmlFor="servings">Raciones</label>
-        <input className="form-servings" type="text" />
+        <input className="form-servings" type="text" {...register("Raciones")} />
         </div>
         <div className="tags-conteiner">
         {/* etiquetas */}
         <label htmlFor="tags">Etiquetas</label>
-        <input className="form-tags" type="text" />
+        <input className="form-tags" type="text" {...register("Etiquetas")} />
         </div>
         <div className="dishtype-conteiner">
         {/* plato */}
         <label htmlFor="dish_type">Plato</label>
-        <input  className="form-dishtype" type="text" />
+        <input  className="form-dishtype" type="text" {...register("Plato")}/>
         </div>
         <div className="collection-conteiner">
         {/* coleccion */}
         <label htmlFor="collection">Colección</label>
-        <input className="form-collection" type="text" />
+        <input className="form-collection" type="text" {...register("Coleccion")} />
         </div>
         <div  className="category-conteiner">
         {/* categoria */}
         <label htmlFor="category">Categoria</label>
-        <input className="form-category" type="text" />
+        <input className="form-category" type="text" {...register("Categoria")}/>
         </div>
         <div className="ingredients-conteiner">
         {/* ingredientes */}
         <label htmlFor="ingredients">Ingredientes</label>
-        <input className="form-ingredients" type="text" />
+        <input className="form-ingredients" type="text" {...register("Ingredientes")} />
         </div>
         <div className="instructions-conteiner">
         {/* instruciones */}
         <label htmlFor="instructions">Paso a paso</label>
-        <input className="form-isntruccion"type="text" />
+        <input className="form-isntruccion"type="text" {...register("Pasos")}/>
         </div>
         <div className="images-conteiner">
         {/* imagenes */}
         <label htmlFor="images">Imagenes</label>
-        <input className="form-images"type="text" />
+        <input className="form-images"type="file" {...register("Imagenes")}/>
         </div>
         <div className="notes-conteiner">
         {/* notas */}
         <label htmlFor="notes">Notas</label>
-        <input className="form-notes" type="text" />
+        <input className="form-notes" type="text"{...register("Notas")}/>
         </div>
-        <button className="save-recipe">Guardar</button>
+        <button type="submit" className="save-recipe">Guardar</button>
+
       </form>
     
     </section>

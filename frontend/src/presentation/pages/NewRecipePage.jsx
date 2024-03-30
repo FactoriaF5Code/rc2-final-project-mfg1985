@@ -5,16 +5,14 @@ import { AddButton } from "../components/AddButton/AddButton";
 import { NewRecipe } from "../components/NewRecipe/NewRecipe";
 
 export const NewRecipePage = () => {
-
-  
   return (
-    <>
-      <body>
+  
+      <div className="newRecipe-conteiner">
         <Header />
         <AddButton />
         <NewRecipe />
         <Outlet />
-      </body>
-    </>
+      </div>
+    
   );
 };
