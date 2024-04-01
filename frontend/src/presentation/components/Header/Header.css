@@ -1,26 +1,27 @@
 header {
-   margin-left: 2rem;
-   margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--light-pink);
-    width: 20rem;
-    height: 75rem;
-    border-radius: 25px;            
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-pink);
+  width: 20rem;
+  height: 100vh;
+  border-radius: 2rem;
 }
 
 .logo {
-    width: 15rem;
-    margin-left: 1.5rem;
-    margin-top: 1.5rem;
+  width: 15rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
 }
-    
+
 ul {
-    justify-content: center;
+  justify-content: center;
 }
 li {
-font-size: 3rem;
-color:var(--dark-pink);
-padding-top: 20rem;
-text-align: center;
+  font-size: 3rem;
+  color: var(--dark-pink);
+  padding-top: 20rem;
+  text-align: center;
 }

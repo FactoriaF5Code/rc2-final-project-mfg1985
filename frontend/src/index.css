@@ -21,7 +21,6 @@
 body {
   background-color: var(--background-color);
   background-size: cover;
-  height: 100vh;
   margin: 0;
   padding: 0;
 }

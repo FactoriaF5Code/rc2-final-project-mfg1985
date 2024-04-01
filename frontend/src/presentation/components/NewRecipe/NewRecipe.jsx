@@ -4,7 +4,7 @@ import "./NewRecipe.css";
 import { useForm } from "react-hook-form";
 
 export const NewRecipe = () => {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit,formState: {errors } } = useForm();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleCloseModal = () => setIsModalOpen(false);
@@ -20,12 +20,18 @@ export const NewRecipe = () => {
         <div className="title-conteiner">
           {/* titulo */}
           <label htmlFor="titulo">Titulo</label>
-          <input  className="form-title" type="text" {...register("Titulo")} /> 
+          <input  className="form-title"
+           type="text" 
+           {...register("Titulo", {
+            required:true})} /> 
+          { errors.Titulo  && <span>Titulo requerido</span>}
         </div>
         <div className="time-conteiner">
         {/* tiempo */}
         <label htmlFor="time">Tiempo</label>
-        <input className="form-time"  type="text" {...register("Tiempo")}/>
+        <input className="form-time"  type="text" {...register("Tiempo", {
+            required:true})} /> 
+          { errors.Tiempo  && <span>Tiempo requerido</span>}
         </div>
         <div className="servings-conteiner">
         {/* Raciones */}
@@ -55,12 +61,16 @@ export const NewRecipe = () => {
         <div className="ingredients-conteiner">
         {/* ingredientes */}
         <label htmlFor="ingredients">Ingredientes</label>
-        <input className="form-ingredients" type="text" {...register("Ingredientes")} />
+        <input className="form-ingredients" type="text" {...register("Ingredientes",{
+            required:true})} /> 
+          { errors.Ingredientes  && <span>Ingredientes requerido</span>}
         </div>
         <div className="instructions-conteiner">
         {/* instruciones */}
         <label htmlFor="instructions">Paso a paso</label>
-        <input className="form-isntruccion"type="text" {...register("Pasos")}/>
+        <input className="form-isntruccion"type="text" {...register("Pasos", {
+            required:true})} /> 
+          { errors.Pasos  && <span>Pasos requerido</span>}
         </div>
         <div className="images-conteiner">
         {/* imagenes */}

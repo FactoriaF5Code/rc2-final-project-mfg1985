@@ -1,12 +1,14 @@
 .newrecipe-conteiner {
   background-color: #e3bac6;
   width: 95rem;
-  height: 75rem;
+  height: 100%;
   border-radius: 2rem;
   margin-left: rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
  
 }
+
 form {
   display: grid;
   margin: 3rem;
@@ -23,7 +25,7 @@ input {
   height: 5rem;
   border-radius: 1rem;
   margin-top: 1rem;
-  font-size:auto;
+  font-size:2.5rem;
 }
 .title-conteiner {
   grid-area: 1 / 1 / 2 / 5;
@@ -69,6 +71,9 @@ input {
 .form-title {
   width: 43rem;
 }
+.form-time, .form-servings {
+  width: 12rem;
+}
 .form-category,
 .form-collection,
 .form-tags,
@@ -92,7 +97,8 @@ input {
   font-size: 2.5rem;
   border-radius: 2rem;
   grid-area: 8 / 8 / 9 / 9;
-
-
-
+}
+span {
+  color:#4e015d;
+  font-size: 1.25rem;
 }
