@@ -20,10 +20,10 @@ export const NewRecipe = () => {
 
   return (
     <section className="newrecipe-conteiner">
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form className="form-newrecipe" onSubmit={handleSubmit(onSubmit) }>
         <div className="title-conteiner">
           {/* titulo */}
-          <label htmlFor="titulo">Titulo</label>
+          <label className="label-titulo" htmlFor="titulo">Titulo</label>
           <input
             className="form-title"
             type="text"
@@ -35,7 +35,7 @@ export const NewRecipe = () => {
         </div>
         <div className="time-conteiner">
           {/* tiempo */}
-          <label htmlFor="time">Tiempo</label>
+          <label className="label-time" htmlFor="time">Tiempo</label>
           <input
             className="form-time"
             type="text"

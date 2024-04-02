@@ -1,0 +1,126 @@
+.import-recipe-conteiner {
+  background-color: #e3bac6;
+  width: 95rem;
+  height: 100%;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.form-import {
+  display: grid; 
+  margin: 3rem;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: repeat(9, 1fr); 
+  grid-column-gap: 16px;
+  grid-row-gap: 16px; 
+  
+}
+
+label {
+  display: grid;
+  color: white;
+  font-size: 2.5rem;
+}
+input {
+  height: 5rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  font-size:2.5rem;
+}
+textarea {
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+*/
+
+.import-url-conteiner { 
+  grid-area: 1 / 1 / 2 / 4;
+}
+.import-form-url{
+  width:45rem;
+}
+.import-previa-conteiner {
+  grid-area: 2 / 1 / 7 / 4;
+  margin-top: 3.2rem;
+}
+
+.previa{
+  width: 45rem;
+  height: 30rem;
+  background-color:white;
+  border-radius: 2rem;
+}
+
+
+.import-time-conteiner{ 
+  grid-area: 1 / 4/ 2 / 5; 
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  
+ 
+} 
+.import-servings-conteiner {
+  grid-area: 1 / 4 / 2 / 6;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-left: 21.2rem;
+}
+
+.import-title-conteiner {
+  grid-area: 2 / 4 / 3 / 6;
+  margin-left: rem;
+}
+.import-tags-conteiner {
+  grid-area: 3 / 4 / 5 / 6;;
+}
+.import-dishtype-conteiner {
+  grid-area: 4 / 4 / 5 / 5;
+}
+.import-collection-conteiner {
+  grid-area: 5 / 4 / 6 / 6;
+}
+.import-category-conteiner{
+  grid-area: 6 / 4 / 7 / 6;
+}
+.import-notes-conteiner {
+  grid-area: 7 / 1 / 9 /6;
+  
+ }
+
+.import-form-notes{
+  width: 89rem;
+  height: 10rem;
+}
+.import-form-category,
+.import-form-collection,
+.import-form-tags,
+.import-form-dishtype, .import-form-title {
+  width: 40rem;
+  
+}
+.import-form-time, .import-form-servings {
+  width: 10rem;
+}
+
+.import-notes {
+  width: 60rem;
+}
+
+
+
+.save-recipe {
+  width: 12rem;
+  height: 4rem;
+  color: white;
+  font-size: 2.5rem;
+  border-radius: 2rem;
+  grid-area: 9 / 5 / 10 / 6;
+}
+span {
+  color:#4e015d;
+  font-size: 1.25rem;
+}

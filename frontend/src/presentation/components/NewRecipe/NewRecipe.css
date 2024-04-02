@@ -9,7 +9,7 @@
  
 }
 
-form {
+.form-newrecipe {
   display: grid;
   margin: 3rem;
   grid-template-columns: repeat(4, 1fr) 1.5fr 0.5fr repeat(2, 1fr);
@@ -27,10 +27,10 @@ input {
   margin-top: 1rem;
   font-size:2.5rem;
 }
-textarea {
+/*textarea {
   border-radius: 2rem;
   margin-top: 1rem;
-}
+}*/
 .title-conteiner {
   grid-area: 1 / 1 / 2 / 5;
 }
