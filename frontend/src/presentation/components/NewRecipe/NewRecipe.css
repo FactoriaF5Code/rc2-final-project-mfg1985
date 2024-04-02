@@ -27,6 +27,10 @@ input {
   margin-top: 1rem;
   font-size:2.5rem;
 }
+textarea {
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
 .title-conteiner {
   grid-area: 1 / 1 / 2 / 5;
 }
@@ -80,15 +84,20 @@ input {
 .form-dishtype {
   width: 30rem;
 }
-.form-notes,
-.form-images {
-  width: 43rem;
+.form-notes
+ {
+  width: 46rem;
   height: 13rem;
+  text-align: center;
+}
+.form-images {
+  font-size: 1rem;
 }
 .form-ingredients,
 .form-isntruccion {
   width: 26rem;
   height: 34rem;
+  text-align: center;
 }
 .save-recipe {
   width: 12rem;
