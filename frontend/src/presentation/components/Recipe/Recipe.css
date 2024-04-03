@@ -1,0 +1,28 @@
+.recipe-view-conteiner {
+    background-color: #e3bac6;
+    width: 95rem;
+    height: 100vh;
+    border-radius: 2rem;
+    margin-left: rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(12, 1fr); 
+    grid-column-gap: 16px;
+    grid-row-gap: 16px; 
+}
+.ti-receta { 
+    align-items: center;
+    grid-area: 1 / 2 / 2 / 5; } 
+.etq-receta{ grid-area: 2 / 4 / 3 / 5; } 
+.ctg-receta{ grid-area: 3 / 4 / 4 / 5; } 
+.plt-receta { grid-area: 4 / 4 / 5 / 5; } 
+.col-receta { grid-area: 5 / 4 / 6 / 5; } 
+.tiempo-receta { grid-area: 2 / 5 / 3 / 6; } 
+.raciones-receta { grid-area: 3 / 5 / 4 / 6; } 
+.iphoto-receta { grid-area: 2 / 1 / 7 / 4; } 
+.ing-receta { grid-area: 7 / 1 / 12 / 3; } 
+.instr-receta { grid-area: 6 / 4 / 12 / 6; } 
+.edit-recipe { grid-area: 12 / 5 / 13 / 6; } 
+.notas-seccion { grid-area: 12 / 4 / 13 / 5; } 
