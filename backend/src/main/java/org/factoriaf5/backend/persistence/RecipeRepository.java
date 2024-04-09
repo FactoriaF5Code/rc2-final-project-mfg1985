@@ -11,3 +11,4 @@ public interface RecipeRepository extends JpaRepository<Recipe, Long> {
    public List<Recipe> findByTitleRecipeContains(String title);
 
 }
+//IgnoreCaseOrTimeRecipesIgnoreCaseOrServingsIgnoreCaseOrTagIgnoreCaseOrDishTypeIgnoreCaseOrColletionIgnoreCaseOrCategoryIgnoreCaseOrIngredientsIgnoreCaseOrInstructionsIgnoreCaseOrImagesIgnoreCaseOrNote
