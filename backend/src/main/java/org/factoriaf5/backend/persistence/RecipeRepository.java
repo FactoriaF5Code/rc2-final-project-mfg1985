@@ -7,8 +7,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 @Repository
 public interface RecipeRepository extends JpaRepository<Recipe, Long> {
-
-   public List<Recipe> findByTitleRecipeContains(String title);
-
+   public List<Recipe> findByTitleContains(String title);
 }
-//IgnoreCaseOrTimeRecipesIgnoreCaseOrServingsIgnoreCaseOrTagIgnoreCaseOrDishTypeIgnoreCaseOrColletionIgnoreCaseOrCategoryIgnoreCaseOrIngredientsIgnoreCaseOrInstructionsIgnoreCaseOrImagesIgnoreCaseOrNote

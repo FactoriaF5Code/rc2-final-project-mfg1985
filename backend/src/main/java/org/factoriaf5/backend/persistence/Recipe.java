@@ -6,22 +6,26 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Lob;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name="recipes")
 public class Recipe {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long recipeId;
-    private String titleRecipe;
-    private String timeRecipe;
+    private Long id;
+    private String title;
+    private String time;
     private String servings;
     private String tag;
     private String dishType;
     private String collection;
     private String category;
     private String ingredients;
+    @Lob
     private String instructions;
-    private List<String> images; // Assuming a list of image URLs
+    private String image;
     private String note;
 
 
@@ -32,11 +36,11 @@ public class Recipe {
     public Recipe(Long recipeId, String titleRecipe, String timeRecipe, 
     String servings, String tag, String dishType,
             String collection, String category, String ingredients,
-             String instructions, List<String> images,
+             String instructions, String image,
             String note) {
-        this.recipeId = recipeId;
-        this.titleRecipe = titleRecipe;
-        this.timeRecipe = timeRecipe;
+        this.id = recipeId;
+        this.title = titleRecipe;
+        this.time = timeRecipe;
         this.servings = servings;
         this.tag = tag;
         this.dishType = dishType;
@@ -44,41 +48,51 @@ public class Recipe {
         this.category = category;
         this.ingredients = ingredients;
         this.instructions = instructions;
-        this.images = images;
+        this.image = image;
         this.note = note;
     }
 
 
-    public Long getRecipeId() {
-        return recipeId;
-    }
-    public void setRecipeId(Long recipeId) {
-        this.recipeId = recipeId;
-    }
-    
-
-    public String getTitleRecipe() {
-        return titleRecipe;
-    }
-    public void setTitleRecipe(String titleRecipe) {
-        this.titleRecipe = titleRecipe;
+    public Long getId() {
+        return id;
     }
 
 
-    public String getTimeRecipe() {
-        return timeRecipe;
+    public void setId(Long id) {
+        this.id = id;
     }
-    public void setTimeRecipe(String timeRecipe) {
-        this.timeRecipe = timeRecipe;
+
+
+    public String getTitle() {
+        return title;
+    }
+
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+
+    public String getTime() {
+        return time;
+    }
+
+
+    public void setTime(String time) {
+        this.time = time;
     }
 
 
     public String getServings() {
         return servings;
     }
+
+
     public void setServings(String servings) {
         this.servings = servings;
     }
+
+
     public String getTag() {
         return tag;
     }
@@ -87,6 +101,8 @@ public class Recipe {
     public void setTag(String tag) {
         this.tag = tag;
     }
+
+
     public String getDishType() {
         return dishType;
     }
@@ -95,6 +111,8 @@ public class Recipe {
     public void setDishType(String dishType) {
         this.dishType = dishType;
     }
+
+
     public String getCollection() {
         return collection;
     }
@@ -103,6 +121,8 @@ public class Recipe {
     public void setCollection(String collection) {
         this.collection = collection;
     }
+
+
     public String getCategory() {
         return category;
     }
@@ -111,6 +131,8 @@ public class Recipe {
     public void setCategory(String category) {
         this.category = category;
     }
+
+
     public String getIngredients() {
         return ingredients;
     }
@@ -119,6 +141,8 @@ public class Recipe {
     public void setIngredients(String ingredients) {
         this.ingredients = ingredients;
     }
+
+
     public String getInstructions() {
         return instructions;
     }
@@ -127,14 +151,18 @@ public class Recipe {
     public void setInstructions(String instructions) {
         this.instructions = instructions;
     }
-    public List<String> getImages() {
-        return images;
+
+
+    public String getImage() {
+        return image;
     }
 
 
-    public void setImages(List<String> images) {
-        this.images = images;
+    public void setImages(String image) {
+        this.image = image;
     }
+
+
     public String getNote() {
         return note;
     }
@@ -143,4 +171,7 @@ public class Recipe {
     public void setNote(String note) {
         this.note = note;
     }
+
+    
+
 }
