@@ -22,7 +22,7 @@ public class RecipeController {
       this.repository = repository;
    }
 
-   @PostMapping("/recipes")
+   @PostMapping("/newrecipe")
    public RecipeResponse createRecipe(@RequestBody RecipeRequest request) {
       Recipe recipe = new Recipe(request.getRecipeId(), request.getTitleRecipe(), request.getTimeRecipe(),
             request.getServings(), request.getTag(), request.getDishType(), request.getCollection(),

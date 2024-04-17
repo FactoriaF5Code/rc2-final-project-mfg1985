@@ -1,6 +1,6 @@
 package org.factoriaf5.backend.controllers;
 
-import java.util.List;
+
 
 public class RecipeRequest {
     private Long recipeId;
@@ -15,6 +15,9 @@ public class RecipeRequest {
     private String instructions;
     private String image;
     private String note;
+
+    public RecipeRequest() {
+    }
 
     public RecipeRequest(Long recipeId, String titleRecipe, String timeRecipe, String servings, String tag,
             String dishType,
