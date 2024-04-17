@@ -1,6 +1,6 @@
 package org.factoriaf5.backend.persistence;
 
-import java.util.List;
+
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

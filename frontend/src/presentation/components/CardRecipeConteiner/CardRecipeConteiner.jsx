@@ -11,7 +11,7 @@ export const CardRecipeConteiner = () => {
         <main className="recipeConteiner">
             { 
                 recipes.map( (r,k) => 
-                    <CardRecipe key={k} title={r.titleRecipe} />
+                    <CardRecipe key={k} title={r.titleRecipe} image={r.image}/>
                 )
             }
         </main>

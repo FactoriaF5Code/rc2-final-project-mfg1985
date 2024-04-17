@@ -49,9 +49,7 @@
           "Servir la tortilla caliente o templada."
         ],
         "imagenes": [
-          "https://imagen1.jpg",
-          "https://imagen2.jpg",
-          "https://imagen3.jpg"
+          "https://comedelahuerta.com/wp-content/uploads/2020/10/Tortilla-de-Patata-scaled.jpg"
         ],
         "notas": [
           "Se puede añadir otras verduras a la tortilla, como pimientos o calabacín.",
@@ -163,9 +161,7 @@
           "Decorar con rodajas de limón."
         ],
         "imagenes": [
-          "https://imagen1.jpg",
-          "https://imagen2.jpg",
-          "https://imagen3.jpg"
+          "https://images.hola.com/imagenes/cocina/recetas/20190903148579/paella-valenciana-caracoles/0-715-65/paella-caracoles-t.jpg?tx=w_680"
         ],
         "notas":
         [
@@ -197,7 +193,7 @@
               },
               {
                 "nombre": "Cebolla",
-                "cantidad": 1/4,
+                "cantidad": 1,
                 "unidad": "unidad"
               },
               {
@@ -222,12 +218,12 @@
               {
                 "nombre": "Huevo duro",
                 "cantidad": 1,
-                "unidad": "unidad" (opcional)
+                "unidad": "unidad"
               },
               {
                 "nombre": "Pan duro",
                 "cantidad": 100,
-                "unidad": "gramos" (opcional)
+                "unidad": "gramos" 
               }
             ],
             "pasos": [
@@ -240,9 +236,7 @@
               "Servir el gazpacho con picatostes, huevo duro picado y jamón serrano picado (opcional)."
             ],
             "imagenes": [
-              "https://imagen1.jpg",
-              "https://imagen2.jpg",
-              "https://imagen3.jpg"
+              "https://www.cnature.es/wp-content/uploads/2020/08/gazpacho-gallego-.jpg"
             ],
             "notas":
             [
