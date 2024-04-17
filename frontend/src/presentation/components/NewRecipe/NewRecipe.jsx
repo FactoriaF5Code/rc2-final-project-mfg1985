@@ -2,8 +2,22 @@ import { useState } from "react";
 import { SavedModal } from "../SavedModal/SavedModal";
 import "./NewRecipe.css";
 import { useForm } from "react-hook-form";
+import axios from "axios"; // Importar axios para peticiones HTTP
 
 export const NewRecipe = () => {
+  
+  const [title, setTitle] = useState('');
+  const [time, setTime] = useState('');
+  const [servings, setServings] = useState('');
+  const [tag, setTag] = useState('');
+  const [dishType, setDishType] = useState('');
+  const [collection, setCollection] = useState('');
+  const [category, setCategory] = useState('');
+  const [ingredients, setIngredients] = useState('');
+  const [instructions, setInstructions] = useState('');
+  const [image, setImage] = useState('');
+  const [note, setNote] = useState('');
+  
   const {
     register,
     handleSubmit,
@@ -13,20 +27,38 @@ export const NewRecipe = () => {
 
   const handleCloseModal = () => setIsModalOpen(false);
 
-  const onSubmit = (data) => {
-    console.log(data);
-    setIsModalOpen(true);
+  const onSubmit = async () => {
+    try {
+      const recipeData = {
+        title: title,
+        time: time,
+        servings: servings,
+        tag: tag,
+        dishType: dishType,
+        collection: collection,
+        category: category,
+        ingredients: ingredients,
+        instructions: instructions,
+        image: image,
+        note: note
+      };
+      const response = await axios.post("http://localhost:8080/newrecipe", recipeData);
+      console.log(response.data);
+      setIsModalOpen(true);
+    } catch (error) {
+      console.error("Error al guardar la receta:", error);
+    }
   };
 
   return (
     <section className="newrecipe-conteiner">
-      <form className="form-newrecipe" onSubmit={handleSubmit(onSubmit) }>
+      <form className="form-newrecipe" onSubmit={handleSubmit(onSubmit)}>
         <div className="title-conteiner">
           {/* titulo */}
           <label className="label-titulo" htmlFor="titulo">Titulo</label>
           <input
             className="form-title"
-            type="text"
+            type="text" 
             {...register("Titulo", {
               required: true,
             })}
