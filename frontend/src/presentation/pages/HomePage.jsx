@@ -1,6 +1,6 @@
 import "./HomePage.css";
 import { CardRecipeConteiner } from "../components/CardRecipeConteiner/CardRecipeConteiner";
-import { CardLastSeenConteiner } from "../components/CardLastSeenConteiner/CardLastSeenConteiner";
+import { CardCollectionConteiner } from "../components/CardCollectionConteiner/CardCollectionConteiner";
 
 export const HomePage = () => {
 
@@ -8,7 +8,7 @@ export const HomePage = () => {
   return (
     <>
       <CardRecipeConteiner />
-      <CardLastSeenConteiner />
+      <CardCollectionConteiner />
     </>
   );
 };
