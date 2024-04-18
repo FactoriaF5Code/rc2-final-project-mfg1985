@@ -26,8 +26,9 @@ padding-top: 3rem;
     background-color: aqua;
 }
 .recipePhoto {
-    width: 1.5vw;
-    height: .8hw;
+    width: 100%;
+    height: 100%;
+    
 }
 
     
