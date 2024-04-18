@@ -6,18 +6,6 @@ import axios from "axios"; // Importar axios para peticiones HTTP
 
 export const NewRecipe = () => {
   
-  const [title, setTitle] = useState('');
-  const [time, setTime] = useState('');
-  const [servings, setServings] = useState('');
-  const [tag, setTag] = useState('');
-  const [dishType, setDishType] = useState('');
-  const [collection, setCollection] = useState('');
-  const [category, setCategory] = useState('');
-  const [ingredients, setIngredients] = useState('');
-  const [instructions, setInstructions] = useState('');
-  const [image, setImage] = useState('');
-  const [note, setNote] = useState('');
-  
   const {
     register,
     handleSubmit,
@@ -27,22 +15,10 @@ export const NewRecipe = () => {
 
   const handleCloseModal = () => setIsModalOpen(false);
 
-  const onSubmit = async () => {
+  const onSubmit = async (data) => {
     try {
-      const recipeData = {
-        title: title,
-        time: time,
-        servings: servings,
-        tag: tag,
-        dishType: dishType,
-        collection: collection,
-        category: category,
-        ingredients: ingredients,
-        instructions: instructions,
-        image: image,
-        note: note
-      };
-      const response = await axios.post("http://localhost:8080/newrecipe", recipeData);
+      
+      const response = await axios.post("http://localhost:8080/newrecipe", data);
       console.log(response.data);
       setIsModalOpen(true);
     } catch (error) {
@@ -59,7 +35,7 @@ export const NewRecipe = () => {
           <input
             className="form-title"
             type="text" 
-            {...register("Titulo", {
+            {...register("titleRecipe", {
               required: true,
             })}
           />
@@ -71,7 +47,7 @@ export const NewRecipe = () => {
           <input
             className="form-time"
             type="text"
-            {...register("Tiempo", {
+            {...register("timeRecipe", {
               required: true,
             })}
           />
@@ -83,18 +59,18 @@ export const NewRecipe = () => {
           <input
             className="form-servings"
             type="text"
-            {...register("Raciones")}
+            {...register("servings")}
           />
         </div>
         <div className="tags-conteiner">
           {/* etiquetas */}
           <label htmlFor="tags">Etiquetas</label>
-          <input className="form-tags" type="text" {...register("Etiquetas")} />
+          <input className="form-tags" type="text" {...register("tag")} />
         </div>
         <div className="dishtype-conteiner">
           {/* plato */}
           <label htmlFor="dish_type">Plato</label>
-          <input className="form-dishtype" type="text" {...register("Plato")} />
+          <input className="form-dishtype" type="text" {...register("dishType")} />
         </div>
         <div className="collection-conteiner">
           {/* coleccion */}
@@ -102,7 +78,7 @@ export const NewRecipe = () => {
           <input
             className="form-collection"
             type="text"
-            {...register("Coleccion")}
+            {...register("collection")}
           />
         </div>
         <div className="category-conteiner">
@@ -111,15 +87,15 @@ export const NewRecipe = () => {
           <input
             className="form-category"
             type="text"
-            {...register("Categoria")}
+            {...register("category")}
           />
         </div>
         <div className="ingredients-conteiner">
           {/* ingredientes */}
           <label htmlFor="ingredients">Ingredientes</label>
           <textarea
-            className="form-ingredients"  rows="30" cols="50"
-            {...register("Ingredientes", {
+            className="form-ingredients"   
+            {...register("ingredients", {
               required: true,
             })}
           />
@@ -129,8 +105,8 @@ export const NewRecipe = () => {
           {/* instruciones */}
           <label htmlFor="instructions">Paso a paso</label>
           <textarea
-            className="form-instructions" rows="30" cols="50"
-            {...register("Pasos", {
+            className="form-instructions" 
+            {...register("instructions", {
               required: true,
             })}
           />
@@ -142,14 +118,14 @@ export const NewRecipe = () => {
           <input
             className="form-images"
             type="file"
-            multiple
+            
             {...register("Imagenes")}
           />
         </div>
         <div className="notes-conteiner">
           {/* notas */}
           <label htmlFor="notes">Notas</label>
-          <textarea className="form-notes" {...register("notes")} />
+          <textarea className="form-notes" {...register("note")} />
         </div>
         <button type="submit" className="save-recipe">
           Guardar

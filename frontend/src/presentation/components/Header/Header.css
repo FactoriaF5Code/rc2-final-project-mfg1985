@@ -22,7 +22,8 @@ header {
 .home-header {
   font-size: 3rem;
   color: var(--dark-pink);
-  padding-top: 20rem;
+  padding-top: 3rem;
   text-align: center;
-  font-size: ;
+  font-family: "Italianno", cursive; 
+  font-size: 6rem;
 }
