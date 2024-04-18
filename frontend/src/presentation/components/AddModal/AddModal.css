@@ -29,9 +29,16 @@
     position: absolute;
     bottom: 0;
     margin-bottom: 2rem;
+    cursor: pointer;
     
 }
 .titulo-menu{
-    font-size: 2rem;
+
+    font-size: 3rem;
     margin-top: 2rem ;
+    font-family:;
+    list-style-type:circle;
+    cursor: pointer;
+
+
 }

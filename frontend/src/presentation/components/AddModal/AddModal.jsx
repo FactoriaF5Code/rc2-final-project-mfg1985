@@ -15,8 +15,10 @@ export const AddModal = ({ isOpen, onClose }) => {
         <>
             <div className="modal-conteiner" style={{ display: isOpen ? "grid" : "none" }}>
                 <div className="modal-boby">
-                    <p className="titulo-menu" onClick={ () => goTo("/newrecipe")}>Añadir receta propia</p>
-                    <p className="titulo-menu" onClick={ () => goTo("/importrecipe")}>Importar receta</p>
+                    <ul>
+                        <li className="titulo-menu" onClick={ () => goTo("/newrecipe")}>Añadir receta propia</li>
+                        <li className="titulo-menu" onClick={ () => goTo("/importrecipe")}>Importar receta</li>
+                    </ul>
                     <button className="close-modal" onClick={onClose}>Cerrar</button>
 
                 </div>

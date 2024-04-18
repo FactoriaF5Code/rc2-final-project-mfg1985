@@ -1,7 +1,7 @@
 .card {
 width: 14.2vw;
 height: 20rem;
-background-color: var(--dark-green);
+background-color: var(--green);
 border-radius: 0.75rem;
 padding-top: 3rem;
 
@@ -24,6 +24,7 @@ padding-top: 3rem;
     width: 12vw;
     height: 10rem;
     background-color: aqua;
+    box-shadow: 0 0 20px rgba(250, 250, 250, 5);
 }
 .recipePhoto {
     width: 100%;
