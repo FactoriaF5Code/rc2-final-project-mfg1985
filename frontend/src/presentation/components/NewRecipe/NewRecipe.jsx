@@ -9,11 +9,16 @@ export const NewRecipe = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleCloseModal = () => setIsModalOpen(false);
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    reset(); // Resetea el formulario cuando se cierra el modal
+  };
+
 
   const onSubmit = async (data) => {
     try {
