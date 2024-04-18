@@ -2,7 +2,7 @@ body {
     
     display:flex;
     flex-direction:row;
-    gap: 3rem;
+   
     /*justify-content: center;
     align-items: center;*/
 }

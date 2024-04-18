@@ -1,13 +1,13 @@
 header {
-  margin-left: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  
+
+  margin-right: 2rem;
   display: flex;
   flex-direction: column;
   background-color: var(--light-pink);
   width: 15vw;
   height: 100%vh;
-  border-radius: 2rem;
+  border-radius: 0,5rem;
 }
 
 .logo {
@@ -16,12 +16,13 @@ header {
   margin-top: 1.5rem;
 }
 
-ul {
+.menu-header {
   justify-content: center;
 }
-li {
+.home-header {
   font-size: 3rem;
   color: var(--dark-pink);
   padding-top: 20rem;
   text-align: center;
+  font-size: ;
 }

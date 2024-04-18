@@ -1,33 +1,33 @@
 .card {
-width: 20rem;
+width: 14.2vw;
 height: 20rem;
 background-color: var(--dark-green);
-border-radius: 30px;
+border-radius: 0.75rem;
 padding-top: 3rem;
 
 
 }
 .titulo {
     background-color:#9CF6F6 ;
-    height: 3rem;
-    width: 20rem;
+    height: 2.5vh;
+    width: 14.2vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-h2 {
+.title-card {
     font-size: 1.5rem;
 }
 .photo {
     margin: auto;
     margin-top: 3rem;
-    width: 15rem;
-    height: 8rem;
+    width: 12vw;
+    height: 10rem;
     background-color: aqua;
 }
 .recipePhoto {
-    width: 15rem;
-    height: 8rem;
+    width: 1.5vw;
+    height: .8hw;
 }
 
     
