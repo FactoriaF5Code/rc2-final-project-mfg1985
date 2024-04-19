@@ -1,6 +1,6 @@
 .recipe-view-conteiner {
   background-color: #e3bac6;
-  width: 95rem;
+  width: 90%;
   height: 100vh;
   border-radius: 2rem;
   margin-top: 2rem;
@@ -83,8 +83,9 @@
   font-size: 2.5rem;
   border-radius: 2rem;
 }
-.notas-seccion {
-  grid-area: 12 / 4 / 13 / 5;
+.notas-receta{
+  grid-area: 10/ 4 / 10 / 5;
+ 
 }
 
 .raciones-receta,
