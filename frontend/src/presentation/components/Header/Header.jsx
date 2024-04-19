@@ -9,9 +9,9 @@ export const Header = () => {
        <Link to="/"> <img className='logo' src={logo} alt="Los secretos de la abuela" /></Link>
         <ul className='menu-header'>
          <Link to="/"> <li className='home-header'>Home</li></Link>
-         <Link to="/"> <li className='home-header'>Favoritos</li></Link>
-         <Link to="/"> <li className='home-header'>Calendario</li></Link>
-         <Link to="/"> <li className='home-header'>Libro</li></Link>
+         <Link to=""> <li className='home-header'>Favoritos</li></Link>
+         <Link to=""> <li className='home-header'>Calendario</li></Link>
+         <Link to=""> <li className='home-header'>Libro</li></Link>
  
   
         </ul>
