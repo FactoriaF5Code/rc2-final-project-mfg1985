@@ -43,7 +43,7 @@ export const Recipe = ({recipeId}) => {
         <h2 className="col-receta">{recipe.collection}</h2>
         <div className="tiempo-receta">
           <img className="reloj" src={Reloj} alt="dibujo reloj" />
-          <h2 className="tiempo">{recipe.time}</h2>
+          <h2 className="tiempo">{recipe.timeRecipe}</h2>
         </div>
         <div className="raciones-receta">
           <img className="cubiertos" src={Plato} alt="dibujo reloj" />
