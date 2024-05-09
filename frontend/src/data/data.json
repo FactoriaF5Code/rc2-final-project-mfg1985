@@ -1,0 +1,248 @@
+{
+    "page": 1,
+    "results": [
+    {
+        "titulo": "Tortilla de patatas española",
+        "tiempo_preparacion": "30 minutos",
+        "personas": 4,
+        "etiquetas": ["Fácil", "Económico", "Vegetariano"],
+        "categorias": ["Desayunos", "Entrantes"],
+        "coleccion": "Recetas tradicionales españolas",
+        "plato": "Principal",
+        "ingredientes": [
+          {
+            "nombre": "Patatas",
+            "cantidad": 500,
+            "unidad": "gramos"
+          },
+          {
+            "nombre": "Huevos",
+            "cantidad": 6,
+            "unidad": "unidades"
+          },
+          {
+            "nombre": "Cebolla",
+            "cantidad": 1,
+            "unidad": "unidad"
+          },
+          {
+            "nombre": "Aceite de oliva virgen extra",
+            "cantidad": 2,
+            "unidad": "cucharadas soperas"
+          },
+          {
+            "nombre": "Sal",
+            "cantidad": "Al gusto"
+          }
+        ],
+        "pasos": [
+          "Pelar y cortar las patatas en rodajas finas.",
+          "Picar la cebolla en dados pequeños.",
+          "Calentar el aceite de oliva en una sartén a fuego medio.",
+          "Freír las patatas hasta que estén doradas por ambos lados.",
+          "Escurrir las patatas y reservarlas.",
+          "Pochar la cebolla en el mismo aceite hasta que esté transparente.",
+          "Añadir las patatas a la sartén y mezclar con la cebolla.",
+          "Batir los huevos con un poco de sal y añadirlos a la sartén.",
+          "Cocinar la tortilla a fuego lento hasta que esté cuajada por ambos lados.",
+          "Dar la vuelta a la tortilla con la ayuda de un plato y cocinar por el otro lado.",
+          "Servir la tortilla caliente o templada."
+        ],
+        "imagenes": [
+          "https://comedelahuerta.com/wp-content/uploads/2020/10/Tortilla-de-Patata-scaled.jpg"
+        ],
+        "notas": [
+          "Se puede añadir otras verduras a la tortilla, como pimientos o calabacín.",
+          "También se puede añadir chorizo o jamón a la tortilla.",
+          "Para una tortilla más cuajada, se puede cocinar durante más tiempo a fuego lento."
+        ]
+      },
+    {
+        "titulo": "Paella valenciana",
+        "tiempo_preparacion": "60 minutos",
+        "personas": 6,
+        "etiquetas": ["Arroz", "Mariscos", "Tradicional"],
+        "categorias": ["Platos principales", "Arroces"],
+        "coleccion": "Recetas regionales españolas",
+        "plato": "Principal",
+        "ingredientes": [
+          {
+            "nombre": "Arroz bomba",
+            "cantidad": 500,
+            "unidad": "gramos"
+          },
+          {
+            "nombre": "Agua",
+            "cantidad": 1,
+            "unidad": "litro"
+          },
+          {
+            "nombre": "Aceite de oliva virgen extra",
+            "cantidad": 4,
+            "unidad": "cucharadas soperas"
+          },
+          {
+            "nombre": "Cebolla",
+            "cantidad": 1,
+            "unidad": "unidad"
+          },
+          {
+            "nombre": "Pimiento rojo",
+            "cantidad": 1,
+            "unidad": "unidad"
+          },
+          {
+            "nombre": "Tomate triturado",
+            "cantidad": 200,
+            "unidad": "gramos"
+          },
+          {
+            "nombre": "Azafrán",
+            "cantidad": "Unas hebras"
+          },
+          {
+            "nombre": "Sal",
+            "cantidad": "Al gusto"
+          },
+          {
+            "nombre": "Garrofón",
+            "cantidad": 200,
+            "unidad": "gramos"
+          },
+          {
+            "nombre": "Judías verdes",
+            "cantidad": 100,
+            "unidad": "gramos"
+          },
+          {
+            "nombre": " Pollo",
+            "cantidad": 400,
+            "unidad": "gramos"
+          },
+          {
+            "nombre": "Conejo",
+            "cantidad": 400,
+            "unidad": "gramos"
+          },
+          {
+            "nombre": "Gambas",
+            "cantidad": 200,
+            "unidad": "gramos"
+          },
+          {
+            "nombre": "Mejillones",
+            "cantidad": 200,
+            "unidad": "gramos"
+          },
+          {
+            "nombre": "Almejas",
+            "cantidad": 200,
+            "unidad": "gramos"
+          },
+          {
+            "nombre": "Limón",
+            "cantidad": 1,
+            "unidad": "unidad"
+          }
+        ],
+        "pasos": [
+          "Calentar el aceite de oliva en una paella a fuego medio.",
+          "Añadir la cebolla picada y cocinar hasta que esté transparente.",
+          "Agregar el pimiento rojo picado y cocinar hasta que esté blando.",
+          "Incorporar el tomate triturado y cocinar durante unos minutos.",
+          "Añadir el azafrán y la sal al gusto.",
+          "Agregar el arroz y remover para que se impregne de los sabores.",
+          "Verter el agua y llevar a ebullición.",
+          "Cocinar a fuego lento durante 18 minutos.",
+          "Agregar el garrofón y las judías verdes y cocinar durante 10 minutos más.",
+          "Incorporar el pollo y el conejo troceados y cocinar durante 10 minutos más.",
+          "Añadir las gambas, los mejillones y las almejas y cocinar hasta que se abran.",
+          "Dejar reposar la paella durante 5 minutos antes de servir.",
+          "Decorar con rodajas de limón."
+        ],
+        "imagenes": [
+          "https://images.hola.com/imagenes/cocina/recetas/20190903148579/paella-valenciana-caracoles/0-715-65/paella-caracoles-t.jpg?tx=w_680"
+        ],
+        "notas":
+        [
+          "La cantidad de agua puede variar según el tipo de arroz que se utilice."]
+        },
+    {
+            "titulo": "Gazpacho andaluz",
+            "tiempo_preparacion": "30 minutos",
+            "personas": 4,
+            "etiquetas": ["Sopa fría", "Refrescante", "Verduras"],
+            "categorias": "Sopas y cremas",
+            "coleccion": "Recetas tradicionales españolas",
+            "plato": "Entrante",
+            "ingredientes": [
+              {
+                "nombre": "Tomates maduros",
+                "cantidad": 1,
+                "unidad": "kilo"
+              },
+              {
+                "nombre": "Pepino",
+                "cantidad": 1,
+                "unidad": "unidad"
+              },
+              {
+                "nombre": "Pimiento verde",
+                "cantidad": 1,
+                "unidad": "unidad"
+              },
+              {
+                "nombre": "Cebolla",
+                "cantidad": 1,
+                "unidad": "unidad"
+              },
+              {
+                "nombre": "Dientes de ajo",
+                "cantidad": 2,
+                "unidad": "unidades"
+              },
+              {
+                "nombre": "Vinagre de Jerez",
+                "cantidad": 2,
+                "unidad": "cucharadas soperas"
+              },
+              {
+                "nombre": "Aceite de oliva virgen extra",
+                "cantidad": 4,
+                "unidad": "cucharadas soperas"
+              },
+              {
+                "nombre": "Sal",
+                "cantidad": "Al gusto"
+              },
+              {
+                "nombre": "Huevo duro",
+                "cantidad": 1,
+                "unidad": "unidad"
+              },
+              {
+                "nombre": "Pan duro",
+                "cantidad": 100,
+                "unidad": "gramos" 
+              }
+            ],
+            "pasos": [
+              "Lavar y trocear los tomates, el pepino, el pimiento verde y la cebolla.",
+              "Pelar los dientes de ajo.",
+              "Poner todos los ingredientes en un vaso de batidora y triturar hasta obtener una crema fina.",
+              "Añadir el vinagre, el aceite de oliva y la sal al gusto y volver a batir.",
+              "Colar el gazpacho para eliminar las pieles y las semillas.",
+              "Refrigerar el gazpacho durante al menos 2 horas antes de servir.",
+              "Servir el gazpacho con picatostes, huevo duro picado y jamón serrano picado (opcional)."
+            ],
+            "imagenes": [
+              "https://www.cnature.es/wp-content/uploads/2020/08/gazpacho-gallego-.jpg"
+            ],
+            "notas":
+            [
+              "Se puede añadir un poco de agua al gazpacho si está demasiado espeso.",
+              "El gazpacho se puede conservar en la nevera durante 2-3 días."
+            ]
+        }
+]
+}

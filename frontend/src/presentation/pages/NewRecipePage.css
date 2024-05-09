@@ -1,0 +1,5 @@
+ .newRecipe-conteiner, .importRecipe-conteiner, .recipe-page-conteiner{
+  display: flex;
+    gap: 3rem;
+}
+

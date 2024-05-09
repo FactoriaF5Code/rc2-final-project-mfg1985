@@ -1,0 +1,10 @@
+.recipeConteiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(6, 1fr); 
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
